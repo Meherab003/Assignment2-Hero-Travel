@@ -8,6 +8,7 @@
   --primary-font-size: 2.5rem;
   --secondary-font-size: 1rem;
   --mobile-font-size: 1.2rem;
+  --btn-text:1.2rem;
   --title-font-weight: 800;
   --paragraph-font-weight: 400;
 }
@@ -19,6 +20,11 @@
 body {
   font-family: "Mulish", sans-serif;
 }
+.title{
+    font-size: var(--primary-font-size);
+    font-weight: var(--title-font-weight);
+    color:var(--second-color);
+}
 .paragraph {
   font-size: var(--secondary-font-size);
   color: var(--paragraph-color);
@@ -29,6 +35,7 @@ body {
     height:50px;
     color:white;
     text-align: center;
+    font-size:var(--btn-text);
     background-color: var(--primary-color);
     border-radius: 8px;
     border:none;
@@ -113,4 +120,28 @@ body {
     border-radius: 8px;
     color:#13131880;
     border:none;
+}
+/* Our Popular sTour */
+.our-tour-section{
+    margin:0 auto;
+    width:88%;
+    display: flex;
+    justify-content: space-between;
+}
+.our-tour-text-container{
+    gap:25px;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-tour-points{
+    font-size: var(--secondary-font-size);
+    color:var(--paragraph-color);
+    padding-left:20px;
+}
+.our-tour-image-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width:50%;
 }
