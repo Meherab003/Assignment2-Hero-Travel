@@ -10,6 +10,8 @@
   .paragraph {
     font-size: 0.875rem;
   }
+  
+  /* Navigation */
   .nav {
     padding: 0;
     margin: 0 auto;
@@ -119,7 +121,7 @@
   .choose-destination-section {
     margin: 25px auto;
   }
-  .choose-destination-text {
+  .section-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,7 +174,7 @@
   }
   .newsletter-img {
     margin-top:20px;
-    width: 335px;
+    width: 100%;
     height: 300px;
     position:relative;
   }
