@@ -34,7 +34,7 @@
             <form action="" class="banner-form">
                 <input id="where" type="text" class="input" placeholder="Where go">
                 <select name="When" id="when" class="input">
-                    <option value="When" class="month">When</option>
+                    <option selected value="when">When</option>
                     <option value="january" class="month">January</option>
                     <option value="february" class="month">February</option>
                     <option value="march" class="month">March</option>
@@ -49,7 +49,7 @@
                     <option value="december" class="month">December</option>
                 </select>
                 <select name="select-type" id="select" class="input">
-                    <option value="select" class="time">Select Type</option>
+                    <option selected value="select" >Select Type</option>
                     <option value="summer" class="time">Summer</option>
                     <option value="winter" class="time">Winter</option>
                 </select>
@@ -87,7 +87,7 @@
                 <h2 class="title">Choose Your Destination</h2>
                 <p class="paragraph">This world is large. Go wherever you want. explore the wonders of 7 continents and enjoy your life. Refresh you soul on the beach or go to mountains and see the world from the eyes of birds.</p>
             </div>
-            <!-- <div class="destination-image-container">
+            <div class="destination-image-container">
                 <div class="destination-image" id="photo1">Maldives</div>
                 <div class="destination-image" id="photo2">Indonesia</div>
                 <div class="destination-image" id="photo3">Srilanka</div>
@@ -95,7 +95,7 @@
                 <div class="destination-image" id="photo5">Kashmir</div>
                 <div class="destination-image" id="photo6">Bangladesh</div>
                 <div class="destination-image" id="photo7">Bandarban</div>
-            </div> -->
+            </div>
         </section>
         <section class="choose-us">
             <div class="section-text">
@@ -106,17 +106,17 @@
                 <div class="card" id="card1">
                     <img src="Images/house.png" class="card-img">
                     <p class="secondary-title">Handpicked Hotels</p>
-                    <p class="paragraph" style="width: 486px;">Handpicked Hotels: The best of the best for you.Enjoy the finest hotels, handpicked by us.We select only the most exquisite hotels for you.Discover the world’s most amazing hotels, handpicked for you.Handpicked Hotels: Where quality and service meet.</p>
+                    <p class="paragraph" id="card-pera1">Handpicked Hotels: The best of the best for you.Enjoy the finest hotels, handpicked by us.We select only the most exquisite hotels for you.Discover the world’s most amazing hotels, handpicked for you.Handpicked Hotels: Where quality and service meet.</p>
                 </div>
                 <div class="card" id="card2">
                     <img src="Images/map.png" class="card-img">
                     <p class="secondary-title">World Class Service</p>
-                    <p class="paragraph" style="width: 486px;">We deliver service that exceeds your expectations.Service excellence is our passion and priority.You deserve the best service. We provide it.We go the extra mile to serve you.Service that makes you smile. Guaranteed.</p>
+                    <p class="paragraph" id="card-pera2">We deliver service that exceeds your expectations.Service excellence is our passion and priority.You deserve the best service. We provide it.We go the extra mile to serve you.Service that makes you smile. Guaranteed.</p>
                 </div>
                 <div class="card" id="card3">
                     <img src="Images/tag.png" class="card-img">
                     <p class="secondary-title">Best Price Guarantee</p>
-                    <p class="paragraph" style="width: 486px;">We’ll match any lower price you find. Guaranteed.Find a better deal elsewhere? We’ll refund the difference.You won’t find a lower price anywhere. That’s our promise.Shop with confidence. We guarantee the best prices online.If you see a lower price, we’ll beat it. No questions asked.</p>
+                    <p class="paragraph" id="card-pera3">We’ll match any lower price you find. Guaranteed.Find a better deal elsewhere? We’ll refund the difference.You won’t find a lower price anywhere. That’s our promise.Shop with confidence. We guarantee the best prices online.If you see a lower price, we’ll beat it. No questions asked.</p>
                 </div>
             </div>
         </section>
@@ -124,6 +124,32 @@
             <div class="section-text">
                 <h2 class="title">Deals & Discounts</h2>
                 <p class="paragraph">Enjoy a 10% discount on any of our travel packages when you book online before March 31, 2024. Hurry, limited spots available!</p>
+            </div>
+            <div class="discount">
+                <div class="discount1">
+                    <discount-text-container>
+                        <p class="secondary-title"></p>
+                        <p class="paragraph"></p>
+                        <p class="secondary-title"></p>
+                        <botton class="btn"></botton>
+                    </discount-text-container>
+                </div>
+                <div class="discount2">
+                    <discount-text-container>
+                        <p class="secondary-title"></p>
+                        <p class="paragraph"></p>
+                        <p class="secondary-title"></p>
+                        <botton class="btn"></botton>
+                    </discount-text-container>
+                </div>
+                <div class="discount3">
+                    <discount-text-container>
+                        <p class="secondary-title"></p>
+                        <p class="paragraph"></p>
+                        <p class="secondary-title"></p>
+                        <botton class="btn"></botton>
+                    </discount-text-container>
+                </div>
             </div>
         </section>
         <section style="height: 424px;" class="image-text-section">
@@ -161,8 +187,20 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="logo2">
+            <img src="Images/Group 40071 (2).png" alt="Logo" class="logo-image">
+            <h2 class="logo-title">Air <span class="logo-title2">Bangladesh</span></h2>
+        </div>
+        <p class="paragraph" id="footer-para1">We are a travel agency that offers customized packages, handpicked hotels, and world-class service. Contact us today and get the best price guarantee.</p>
+        <div class="footer-img-container">
+            <img src="Images/facebook.png" alt="" class="social">
+            <img src="Images/instagram.png" alt="" class="social">
+            <img src="Images/twitter.png" alt="" class="social">
+            <img src="Images/github.png" alt="" class="social">
+        </div>
+        <hr color="background: rgba(19, 19, 24, 0.10);" size="1px">
+        <p class="paragraph" id="footer-para">2017, All Rights Reserved.</p>
     </footer>
 </body>
 </html>

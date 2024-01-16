@@ -19,6 +19,8 @@
 }
 body {
   font-family: "Mulish", sans-serif;
+  max-width: 1440px;
+  margin:0 auto;
 }
 .title {
   font-size: var(--primary-font-size);
@@ -195,7 +197,7 @@ body {
 }
 .destination-image-container {
   margin: 0 auto;
-  /* width:90%; */
+  width:90%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 300px);
@@ -284,6 +286,15 @@ body {
   width: 64px;
   height: 64px;
 }
+#card-pera1{
+    width: 486px;
+}
+#card-pera2{
+    width: 486px;
+}
+#card-pera3{
+    width: 486px;
+}
 /* Newsletter */
 .newsletter {
   width: 88%;
@@ -332,4 +343,32 @@ body {
 #btn-span {
   font-size: 1.2rem;
   font-weight: var(--paragraph-font-weight);
+}
+/* Footer */
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding:100px;
+}
+.logo2{
+    display:flex;
+}
+.footer-img-container{
+    display:flex;
+    gap:24px;
+}
+#footer-para{
+    text-align: center;
+}
+hr{
+    height:1px;
+    width: 872px;
+}
+.social{
+    width:48px;
+    height:48px;
 }

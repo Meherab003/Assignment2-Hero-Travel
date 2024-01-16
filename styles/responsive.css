@@ -130,11 +130,14 @@
     width: 80%;
   }
   .destination-image-container {
-    grid-template-columns: repeat(1, 1fr);
+    display:flex;
+    flex-direction: column;
+    gap:20px;
   }
   .destination-image {
-    width: 100%;
+    width: 335px;
   }
+
 /* Choose-us  */
 .services{
     width:90%;
@@ -169,6 +172,15 @@
 .card-img {
   width: 48px;
   height: 48px;
+}
+#card-pera1{
+    width: 271px;
+}
+#card-pera2{
+    width: 271px;
+}
+#card-pera3{
+    width: 271px;
 }
   /* Newsletter */
   .newsletter {
@@ -217,4 +229,36 @@
     font-size: 0.8rem;
     font-weight: var(--paragraph-font-weight);
   }
+}
+/* footer */
+.footer{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding:25px;
+}
+.logo2{
+    display:flex;
+}
+.footer-img-container{
+    display:flex;
+    gap:25px;
+}
+#footer-para{
+    text-align: center;
+}
+#footer-para1{
+    text-align: center;
+}
+hr{
+    height:1px;
+    width: 335px;
+}
+.social{
+    width:24px;
+    height:24px;
 }
