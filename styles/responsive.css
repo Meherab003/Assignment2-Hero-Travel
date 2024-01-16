@@ -130,7 +130,7 @@
     width: 80%;
   }
   .destination-image-container {
-    display:flex;
+    display:none;
     flex-direction: column;
     gap:20px;
   }
