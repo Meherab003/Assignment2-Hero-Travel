@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap");
+
+:root {
+  --primary-color: #ff5400;
+  --second-color: #131318;
+  --third-color: #ffffff;
+  --paragraph-color: #5a5a5d;
+  --primary-font-size: 2.5rem;
+  --secondary-font-size: 1rem;
+  --mobile-font-size: 1.2rem;
+  --title-font-weight: 800;
+  --paragraph-font-weight: 400;
+}
+/* Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+.paragraph {
+  font-size: var(--secondary-font-size);
+  color: var(--paragraph-color);
+  font-weight: var(--paragraph-font-weight);
+}
+.btn{
+    width:180px;
+    height:50px;
+    color:white;
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    border:none;
+}
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 6%;
+}
+.logo {
+    padding-left:1%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-title {
+  font-size: var(--primary-font-size);
+  font-weight: var(--title-font-weight);
+}
+.logo-title2 {
+  color: var(--primary-color);
+}
+.full-menu {
+  width: 50%;
+}
+.menubar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu-icon {
+  display: none;
+}
+.menu {
+  text-decoration: none;
+  font-size: var(--secondary-font-size);
+  color: var(--paragraph-color);
+  font-weight: var(--paragraph-font-weight);
+}
+
+.home-btn {
+  color: var(--primary-color);
+}
+/* Banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/banner-background.png');
+    width:1170px;
+    height:500px;
+    margin:50px auto 100px auto;
+    border-radius: 16px;
+}
+.banner-title {
+  font-size: 4rem;
+  color: white;
+}
+.banner-description{
+    color:#FFFFFF;
+    width:60%;
+}
+.banner-form {
+    padding:15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  width:70%;
+  display: flex;
+  justify-content: space-around;
+}
+.input{
+    width:180px;
+    height:50px;
+    padding:0px 10px;
+    font-size: 1rem;;
+    border-radius: 8px;
+    color:#13131880;
+    border:none;
+}
