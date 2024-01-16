@@ -4,10 +4,10 @@
     padding: 0;
   }
   /* common */
-  .title{
+  .title {
     font-size: var(--mobile-font-size);
   }
-  .paragraph{
+  .paragraph {
     font-size: 0.875rem;
   }
   .nav {
@@ -79,29 +79,29 @@
   .image-text-section {
     flex-direction: column;
     width: 90%;
-    gap:25px;
+    gap: 25px;
   }
   .section-text-container {
     gap: 20px;
     width: 100%;
   }
   .section-image {
-    max-width:100%;
+    max-width: 100%;
     object-fit: cover;
   }
-  .section-image-container{
+  .section-image-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width:100%;
-}
-.section-points{
+    width: 100%;
+  }
+  .section-points {
     font-size: 0.875rem;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:20px;
-}
-.image-over-text {
+    gap: 20px;
+  }
+  .image-over-text {
     background-image: url(../Images/Group40089.png);
     display: flex;
     flex-direction: column;
@@ -115,23 +115,69 @@
     font-weight: 700;
     border-radius: 15px;
   }
-/* Choose Destination */
-.choose-destination-section{
-    margin:25px auto;
-}
-.choose-destination-text{
+  /* Choose Destination */
+  .choose-destination-section {
+    margin: 25px auto;
+  }
+  .choose-destination-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:15px;
-    width:80%;
-}
-.destination-image-container{
-    grid-template-columns:repeat(1, 1fr);
-
-}
-.destination-image {
-    width:100%;
-}
+    gap: 15px;
+    width: 80%;
+  }
+  .destination-image-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .destination-image {
+    width: 100%;
+  }
+  /* Newsletter */
+  .newsletter {
+    margin: 80px auto;
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .newsletter-form {
+    justify-content: space-around;
+    border-radius: 16px;
+    padding: 20px;
+    gap: 15px;
+    margin-top:180px;
+  }
+  .newsletter-input {
+    font-size: var(--mobile-font-size);
+    border-radius: 0.5rem;
+    padding: 0 10px;
+    width: 288px;
+    height: 52px;
+  }
+  .newsletter-form > .btn {
+    width: 310px;
+    height: 52px;
+    padding: 0px 10px;
+  }
+  .newsletter-image-container > button {
+    font-size: 1.2rem;
+    width: 215px;
+    height: 80px;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 208px;
+    right: 7px;
+  }
+  .newsletter-img {
+    margin-top:20px;
+    width: 335px;
+    height: 300px;
+    position:relative;
+  }
+  #btn-span {
+    font-size: 0.8rem;
+    font-weight: var(--paragraph-font-weight);
+  }
 }
