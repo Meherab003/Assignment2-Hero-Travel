@@ -196,69 +196,52 @@ body {
   gap: 10px;
 }
 .destination-image-container {
-  margin: 0 auto;
-  width: 90%;
+  margin-top:40px;
+  margin-left: 10px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 300px);
-  row-gap: 20px;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
 }
-
-.destination-image {
+.des-img{
+  width: 100%;
+}
+.destination-image-container div {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  border-radius: 16px;
+}
+.image-1 {
+  grid-column:span 6;
+}
+.image-2 {
+  grid-column:span 6;
+}
+.image-3 {
+  grid-column:span 4;
+  
+}
+.image-4 {
+  grid-column:span 5;
+}
+.image-5 {
+  grid-column:span 3;
+}
+.image-6 {
+  grid-column:span 5;
+}
+.image-7 {
+  grid-column:span 7;
+}
+.destination-image-text {
   color: #fff;
+  text-align: center;
+  position:absolute;
   font-size: 28px;
   font-weight: 800;
-  height: 300px;
 }
-#photo1 {
-  background-image: url(../Images/Rectangle\ 5.png);
-  grid-column: span 6;
-  width: 573px;
-  background-size: cover;
-}
-#photo2 {
-  background-image: url(../Images/Rectangle\ 8.png);
-  grid-column: span 6;
-  width: 573px;
-  background-size: cover;
-}
-#photo3 {
-  background-image: url(../Images/Rectangle\ 6.png);
-  grid-column: span 4;
-  width: 374px;
-  height: 286px;
-  background-size: cover;
-}
-#photo4 {
-  background-image: url(../Images/Rectangle\ 7.png);
-  grid-column: span 5;
-  width: 474px;
-  height: 286px;
-  background-size: cover;
-}
-#photo5 {
-  background-image: url(../Images/Rectangle\ 9.png);
-  grid-column: span 3;
-  width: 274px;
-  height: 286px;
-  background-size: cover;
-}
-#photo6 {
-  background-image: url(../Images/Rectangle\ 11.png);
-  grid-column: span 5;
-  width: 473px;
-  background-size: cover;
-}
-#photo7 {
-  background-image: url(../Images/Rectangle\ 10.png);
-  grid-column: span 7;
-  width: 673px;
-  background-size: cover;
-}
+
 /* Choose-us */
 .services {
   margin: 100px auto 50px auto;
@@ -312,17 +295,17 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image:url('../Images/Group39.png');
+  background-image: url("../Images/Group39.png");
   width: 1170px;
   height: 500px;
   margin: 50px auto 25px auto;
   border-radius: 16px;
 }
-.discount2{
+.discount2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image:url('../Images/Group40.png');
+  background-image: url("../Images/Group40.png");
   width: 1170px;
   height: 500px;
   margin: 25px auto;
@@ -332,16 +315,16 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image:url('../Images/Group39.png');
+  background-image: url("../Images/Group39.png");
   width: 1170px;
   height: 500px;
   margin: 25px auto 50px auto;
   border-radius: 16px;
 }
 .discount-text-container {
-  width:35%;
+  width: 35%;
   height: 300px;
-  padding:50px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
