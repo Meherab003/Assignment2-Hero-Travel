@@ -229,8 +229,7 @@
     font-size: 0.8rem;
     font-weight: var(--paragraph-font-weight);
   }
-}
-/* footer */
+  /* footer */
 .footer{
     text-align: center;
     display:flex;
@@ -243,6 +242,7 @@
 }
 .logo2{
     display:flex;
+    gap:10px;
 }
 .footer-img-container{
     display:flex;
@@ -255,10 +255,14 @@
     text-align: center;
 }
 hr{
-    height:1px;
     width: 335px;
+    background-color: #1313181A;
 }
 .social{
     width:24px;
     height:24px;
+}
+.footer-logo-img{
+  width:35px;
+}
 }
